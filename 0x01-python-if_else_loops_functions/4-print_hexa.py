@@ -1,3 +1,4 @@
 #!/usr/bin/python3
-for num in range(0,99):
-    print(f"{num} = {hex(num)}")
+txt = "{alph}"
+for acsi in range(0, 99):
+    print(acsi, "=", txt.format(alph=hex(acsi)))
