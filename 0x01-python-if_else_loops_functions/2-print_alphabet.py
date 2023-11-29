@@ -1,6 +1,4 @@
 #!/usr/bin/python3
-abc = 97
-while abc < 123:
-    abcd = chr(abc)
-    print(abcd, end="")
-    abc = abc + 1
+txt = "{alph}"
+for acsi in range(97, 123):
+    print(txt.format(alph=chr(acsi)), end="")
