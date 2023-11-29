@@ -1,8 +1,0 @@
-#!/bin/bash
-
-pyfile=$PYFILE
-
-pycfile="${pyfile}c"
-
-echo "Compiling $pyfile ..."
-python3 -m py_compile "$pyfile"
