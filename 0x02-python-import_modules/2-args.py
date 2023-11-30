@@ -11,10 +11,10 @@ if __name__ == "__main__":
             for count in range(counter):
                 if count == 0:
                     continue
-                print("{} : {}".format(count, argv[count]))
+                print("{}: {}".format(count, argv[count]))
         else:
             print("{} arguments:".format(counter - 1))
             for count in range(counter):
                 if count == 0:
                     continue
-                print("{} : {}".format(count, argv[count]))
+                print("{}: {}".format(count, argv[count]))
